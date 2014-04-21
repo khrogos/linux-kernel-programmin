@@ -1,0 +1,3 @@
+[   93.040295] hello: module license 'unspecified' taints kernel.
+[   93.040310] Disabling lock debugging due to kernel taint
+[   93.044713] Hello, World
