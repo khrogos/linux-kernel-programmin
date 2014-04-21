@@ -1,0 +1,6 @@
+Linux Kernel Modules
+=============
+
+There are my attemps to play with the linux kernel.
+
+All those modules are coded and tested on a debian x86 VM with 3.2.0-4-486 kernel (The kernel will be updated soon on this VM)
