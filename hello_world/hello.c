@@ -2,6 +2,14 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
+#define AUTHOR "Julien Khrogos Delhaye <khrogos@khrogos.info>"
+#define LICENSE "Dual MIT/GPL"
+#define DESCRIPTION "Hello, world"
+
+MODULE_LICENSE(LICENSE);
+MODULE_AUTHOR(AUTHOR);
+MODULE_DESCRIPTION(DESCRIPTION);
+
 static int 
 __init launch(void){
 	printk(KERN_DEBUG "Hello, World\n");
